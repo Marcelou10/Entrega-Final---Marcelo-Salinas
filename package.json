@@ -1,0 +1,19 @@
+{
+  "name": "nuevo-periexport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass":"node-sass --include-path scss ./scss/styles.scss ./css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcelou10/PreEntrega2--Marcelo-Salinas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcelou10/PreEntrega2--Marcelo-Salinas/issues"
+  },
+  "homepage": "https://github.com/Marcelou10/PreEntrega2--Marcelo-Salinas#readme"
+}
