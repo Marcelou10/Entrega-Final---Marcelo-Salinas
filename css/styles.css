@@ -4,7 +4,8 @@ box-sizing: border-box;}
 
 /*header*/
 .container-fluid img{
-    width: 50px;}
+    width: 50px;
+}
     
 
 
@@ -14,10 +15,13 @@ box-sizing: border-box;}
 /*main*/
 
 .title{display: flex;
+    align-items: center;
     justify-content: center;
 padding-top: 100px;}
 
-.card{width: 300px; 
+
+
+.card{ width: 300px; 
     
     display: flex;
     
@@ -102,50 +106,42 @@ margin-top: 0px;}
 
 .init h2{
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 300px;}
+    margin-bottom: 300px;
+position: relative;}
 
 
 
 
 
-/*Informacion*/
+/*informacion*/
 
 /*main*/
 
-.hero-contenedor{display: flex;
-display: inline-block;
+.info{display: flex;
 align-items: center;
 justify-content: center;}
 
-.hero-contenedor h2, p{
-    align-items: center;}
 
-.hero-contenedor{height: 60vh;
+
+
+
+.info-contenedor{height: 60vh;
     width: 100%;}
 
 
-.hero-contenedor img{
+.info__img{
     height: 100%;
     width: 100%;
     object-fit: cover;}
 
 
-.marcas-contenedor{
-    display: flex;
-    display:inline-block
-    }
-
-.col img{
-    width:300px ;
-}
-
-.marcas-contenedor{
-    display: inline-block;
-    align-items: center;}
+.img-fluid{width: 300px;
+display: grid;
+place-content: center;}
 
 
-.row{margin: 0;}
 
 .carousel-item{
     transition: 1.5s;} 
@@ -155,7 +151,7 @@ justify-content: center;}
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 480px) and (max-width: 768px){
 
 
     .card{width: 300px; 
@@ -163,10 +159,10 @@ justify-content: center;}
     
         
         
-        justify-content:center;
-    display:inline-block;
+        justify-content: center;
+    display: inline-block;
     align-items: center;
-    margin-left:225px;
+    margin-left: 225px;
     margin-top: 50px;
     ;}
 
@@ -204,8 +200,6 @@ justify-content: center;}
 
     .titulo{font-size: 5px;}
 }
-
-
 
 @media screen and (max-width: 320px){
 

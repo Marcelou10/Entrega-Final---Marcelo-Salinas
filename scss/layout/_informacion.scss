@@ -1,0 +1,33 @@
+/*informacion*/
+
+/*main*/
+
+.info{display: flex;
+    align-items: center;
+    justify-content: center;}
+    
+    
+    
+    
+    
+    .info-contenedor{height: 60vh;
+        width: 100%;}
+    
+    
+    .info__img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;}
+    
+    
+    .img-fluid{width: 300px;
+    display: grid;
+    place-content: center;}
+    
+    
+    
+    .carousel-item{
+        transition: 1.5s;} 
+    
+    .for{margin-bottom: 200px;}
+    

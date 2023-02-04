@@ -1,0 +1,33 @@
+/*header*/
+.container-fluid img{
+    width: 50px;}
+    
+
+
+
+
+
+/*main*/
+
+.title{display: flex;
+    align-items: center;
+    justify-content: center;
+padding-top: 100px;}
+
+
+
+.card{width: 300px; 
+    
+    display: flex;
+    
+    
+    justify-content: center;
+display: inline-block;
+align-items: center;
+margin-left:250px;
+margin-top: 50px;
+margin-bottom: 100px;}
+
+
+.card img{
+    width: 100%;}
