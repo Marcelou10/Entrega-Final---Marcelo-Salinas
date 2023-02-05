@@ -1,79 +1,53 @@
-@media screen and (min-width:480px) (max-width: 768px){
+@media screen and(max-width: 768px){
 
 
-    .card{width: 300px; 
+    .card{margin-left: 100px;}
     
     
-        
-        
-        justify-content:center;
-    display:inline-block;
-    align-items: center;
-    margin-left:225px;
-    margin-top: 50px;
-    ;}
-
-.contenedor{margin-top: 0;}
-
-
-
-
-
-
-
-
-
-}
-
-@media screen and (max-width: 480px){
-
-
-
-    .card{width: 300px; 
     
     
-        
-        
-        justify-content:center;
-    display:inline-block;
-    align-items: center;
-    margin-left:90px;
-    margin-top: 50px;
-    ;}
-    .derechos{font-size: 12px;}
-
-    .redes{font-size: 12px;
-        padding: 0px 20px;}
-
-    .titulo{font-size: 5px;}
-}
-
-@media screen and (max-width: 320px){
-
-
-    .card{width: 300px; 
     
     
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+    @media screen and (max-width: 480px) {
+        
+    .card{width: 250px;
+        margin-left: 120px;}
+    
+    .card-title{font-size: 20px;}
+    
+    
+    .derechos{font-size: 11px;}
+    
+    .redes{font-size: 11px;}
+    
+    .titulo{font-size: 11px;
+    margin-left: 20px;}
+    
+    }
+    
+    @media screen and (max-width: 320px) {
+        
+        .card{width: 200px;
+            margin-left: 60px;}
+        
+        .card-title{font-size: 18px;}
         
         
-        justify-content:center;
-    display:inline-block;
-    align-items: center;
-    margin-left:0px;
-    margin-top: 50px;
-    ;}
-
-    .fb , .tw , .ig , .li , .yt{
-        margin-left: 5px;}
-
-        .redes{font-size: 15px;
-        padding: 0px 20px;}
-
-
-        .derechos{font-size: 12px;}
-
-
-
-
-
-}
+        .derechos{font-size: 10.5px;}
+        
+        .redes{font-size: 11px;}
+        
+        .titulo{font-size: 7px;
+        margin-left: 20px;}
+        
+        }
