@@ -1,5 +1,10 @@
 /*import reset*/
 @import "./scss/base/reset";
+@import "./base/vars";
+
+
+/*components*/
+@import "./components/footer";
 
 /*import layout*/
 @import "./layout/index";

@@ -39,7 +39,7 @@ margin-bottom: 100px;}
 
 
 /*footer*/
-.contenedor{background-color: black;
+.contenedor{background-color: $COLOR-MAIN;
 margin-top: 0px;}
 
     .titulo{display: flex;
@@ -50,7 +50,7 @@ margin-top: 0px;}
     
     .redes{font-size: 22px;}
 
-    .titulo, .redes , .derechos{color:black}
+    .titulo, .redes , .derechos{color: $COLOR-MAIN}
 
     .derechos{display: flex;
         justify-content: center;}
@@ -63,31 +63,32 @@ margin-top: 0px;}
             background-color: rgb(13, 0, 255);
             padding: 8px;
             border-radius: 50px;
-            color: white;}
+            color: $color-second;}
     
             .tw{
                 background-color: rgb(0, 149, 255);
                 padding: 8px;
                 border-radius: 50px;
-                color: white;}
+                color: #fff;}
     
                 .ig{
                     background-color: rgb(255, 0, 111);
                     padding: 8px;
                     border-radius: 50px;
-                    color: white;}
+                    color: #fff;}
     
                     .li{
                         background-color: rgb(0, 17, 255);
                         padding: 8px;
                         border-radius: 50px;
-                        color: white;}
+                        color: #fff;}
     
                         .yt{
                             background-color: rgb(255, 0, 0);
                             padding: 8px;
                             border-radius: 50px;
-                            color: white;}
+                            color: #fff
+                            ;}
 
 
 
