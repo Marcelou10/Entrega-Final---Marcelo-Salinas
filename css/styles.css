@@ -166,7 +166,8 @@ justify-content: center;}
 
 
 
-.fotos__content{margin-left: 5px ;}
+.fotos__content{width: 500px;
+    padding-left: 200px;}
 
 
 
@@ -193,6 +194,9 @@ justify-content: center;}
 
 .titulo{font-size: 11px;
 margin-left: 20px;}
+
+.fotos__content{width: 500px;
+    padding-left: 200px;}
 
 }
 
