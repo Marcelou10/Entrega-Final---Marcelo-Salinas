@@ -39,7 +39,7 @@ margin-bottom: 100px;}
 
 
 /*footer*/
-.contenedor{background-color: $COLOR-MAIN;
+.contenedor{background-color: #191919;
 margin-top: 0px;}
 
     .titulo{display: flex;
@@ -50,7 +50,7 @@ margin-top: 0px;}
     
     .redes{font-size: 22px;}
 
-    .titulo, .redes , .derechos{color: $COLOR-MAIN}
+    .titulo, .redes , .derechos{color: #191919;}
 
     .derechos{display: flex;
         justify-content: center;}
@@ -63,7 +63,7 @@ margin-top: 0px;}
             background-color: rgb(13, 0, 255);
             padding: 8px;
             border-radius: 50px;
-            color: $color-second;}
+            color: #fff;}
     
             .tw{
                 background-color: rgb(0, 149, 255);
