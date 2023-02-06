@@ -23,7 +23,8 @@
     align-items: center;
     justify-content: center;
     margin-left: 600px;
-    @include tamanio(600px,430px)}
+    width: 600px;
+    height: 430px;}
 
 .fotos__title{display: flex;
     align-items: center;
