@@ -4,45 +4,45 @@
 
 .info{display: flex;
 
-.info__content{display: inline-block;
-    align-items: center;
-    justify-content: center;
+.info__content{display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 
-.h1{align-items: center;}
+.info__title{align-items: center;}
 
-.img{width: 900px;} 
+.info__img{width: 900px;} 
 
-.p{ font-size: 22px;}
+.info__p{ font-size: 22px;
+margin-left: 150px;
+margin-right: 150px;}
+} }
 
-}
 
 
-}
+
+
 
 .fotos__content{display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 600px;
-    width: 600px;
-    height: 430px;}
+    @include tamanio(600px,430px)}
 
 .fotos__title{display: flex;
     align-items: center;
     justify-content: center;}
 
-        .fotos__img{
+.fotos__img{
             width: 300px;
             flex-grow: 1;
             object-fit: cover;
             opacity: .8;
             transition: .5s ease;}
 
-            .fotos__img:hover{
+.fotos__img:hover{
                 cursor: crosshair;
                 width: 400px;
                 opacity: 1;
                 filter: contrast(120%);}
             
-
-
-
