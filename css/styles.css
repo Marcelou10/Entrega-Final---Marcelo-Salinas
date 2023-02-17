@@ -122,7 +122,7 @@
       margin: auto;
       margin-bottom: 50px; }
     .info .info__izquierda .info__p {
-      font-size: 20px;
+      font-size: 13px;
       line-height: 20px;
       width: 50%;
       margin: auto; }
@@ -146,39 +146,6 @@
   .info .sobre {
     color: #fff; }
 
-/*.info__izquierda{background-color:rgb(234, 255, 196);
-  height: 100vh;
-  width: 100%;}
-
-.info__derecha{background-image: url(../Images/empresarios2.avif);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100vh;}
-
-.sobre{color: #fff;}
-
-.info__title{font-size: 30px;
-  width: 50%;
-  margin: auto;
-  margin-bottom: 50px;}
-
-.info__p{font-size: 20px;
-  line-height: 20px;
-  width: 50%;
-  margin: auto;
-  }
-
-.info__button a {border: 3px solid white;
-  padding:20px;
-  text-decoration: none;
-  border-radius: 30px;
-  color: #fff;
-  font-weight: bold;
-  display: inline-block;
-  margin-top: 30px;}
-
-.info__button{text-align: center;}*/
 .fotos__content {
   display: flex;
   align-items: center;
@@ -214,6 +181,41 @@
 .btn {
   margin-top: 20px; }
 
+/*.fotos__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  width: 300px;
+  height: 330px; }
+
+.fotos__title {
+  font-size: 22px;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content:center; }
+
+.fotos__img {
+  width: 100px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease; 
+  }
+
+.fotos__img:hover {
+  cursor: crosshair;
+  width: 150px;
+  opacity: 1;
+  filter: contrast(120%); }
+
+.form-label {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
+.btn {
+  margin-top: 20px; }*/
 .form-label {
   margin-top: 80px;
   margin-bottom: 80px; }
@@ -228,11 +230,11 @@
   .card-title {
     font-size: 20px; }
   .fotos__content {
-    padding-left: 600px;
     width: 600px;
-    height: 430px; }
+    height: 430px;
+    padding-left: 600px; }
   .fotos__title {
-    font-size: 30px; }
+    font-size: 22px; }
   .fotos__img {
     width: 300px; }
   .fotos__img:hover {
@@ -270,5 +272,5 @@
   .info__title {
     font-size: 30px; }
   .info__p {
-    font-size: 25px;
-    line-height: 30px; } }
+    font-size: 30px;
+    line-height: 60px; } }

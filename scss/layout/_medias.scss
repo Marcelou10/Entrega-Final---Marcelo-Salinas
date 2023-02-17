@@ -8,11 +8,12 @@
   
   
   
-  .fotos__content {padding-left: 600px;
-    width: 600px;
-    height: 430px;}
+  .fotos__content {width: 600px;
+    height: 430px;
+    padding-left: 600px;}
   
-  .fotos__title {font-size: 30px;}
+  .fotos__title {
+    font-size: 22px;}
   
   .fotos__img {width: 300px;
   }
@@ -55,6 +56,6 @@
   
     .info__title{font-size: 30px;}
   
-    .info__p{font-size: 25px;
-      line-height: 30px;}
+    .info__p{font-size: 30px;
+      line-height: 60px;}
     }
