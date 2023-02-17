@@ -1,55 +1,60 @@
-@media screen and(max-width: 768px){
-
-
-    .card{margin-left: 100px;}
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+@media only screen and (min-width: 1024px) {
+    .card {
+      width: 300px;
+      margin-left: 900px; }
+  
+    .card-title {
+      font-size: 20px; }
+  
+  
+  
+  .fotos__content {padding-left: 600px;
+    width: 600px;
+    height: 430px;}
+  
+  .fotos__title {font-size: 30px;}
+  
+  .fotos__img {width: 300px;
+  }
+  
+  .fotos__img:hover {width: 400px;
+  }
+  
+  .info__title{font-size: 60px;}
+  
+  .info__p{font-size: 30px;
+    line-height: 60px;}
+  
+    .info__button a:hover {cursor: crosshair;
+      width: 150px;
+      opacity: 2;
+      filter: contrast(120%);}
+  }
+  
+  @media only screen and (min-width: 768px) {
+  
+  .card {margin-left: 235px; }
+  
+  
+  .fotos__img{width: 150px;}
+  
+  
+  .fotos__content {margin-left: 250px;
+    width: 300px;
+    height: 330px; }
+  
+  .fotos__title {font-size: 30px;}
+  
+  .fotos__img {width: 200px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease; }
+  
+    .fotos__img:hover {width: 400px;}
+  
+    .info__title{font-size: 30px;}
+  
+    .info__p{font-size: 25px;
+      line-height: 30px;}
     }
-    
-    
-    @media screen and (max-width: 480px) {
-        
-    .card{width: 250px;
-        margin-left: 120px;}
-    
-    .card-title{font-size: 20px;}
-    
-    
-    .derechos{font-size: .75rem;}
-    
-    .redes{font-size: 11px;}
-    
-    .titulo{font-size: 11px;
-    margin-left: 20px;}
-    
-    }
-    
-    @media screen and (max-width: 320px) {
-        
-        .card{width: 200px;
-            margin-left: 60px;}
-        
-        .card-title{font-size: 18px;}
-        
-        
-        .derechos{font-size: 10.5px;}
-        
-        .redes{font-size: 11px;}
-        
-        .titulo{font-size: 7px;
-        margin-left: 20px;}
-
-        
-        
-        }
